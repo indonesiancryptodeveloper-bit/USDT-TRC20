@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tether USD (USDT) - TRC20 Official Landing Page & Whitepaper</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #1e293b, #0f172a); padding: 2.5rem 1rem; text-align: center; border-bottom: 1px solid #334155; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #38bdf8; }
+        p.subtitle { color: #94a3b8; font-size: 1.1rem; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        .card { background-color: #1e293b; border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); border: 1px solid #334155; }
+        .card h2 { margin-bottom: 1rem; color: #38bdf8; font-size: 1.5rem; border-bottom: 2px solid #334155; padding-bottom: 0.5rem; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } }
+        .info-item { background: #0f172a; padding: 1rem; border-radius: 8px; border: 1px solid #334155; }
+        .info-item span { display: block; color: #94a3b8; font-size: 0.85rem; }
+        .info-item strong { color: #f8fafc; font-size: 1.05rem; word-break: break-all; }
+        .btn { display: inline-block; background-color: #0284c7; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: background 0.3s; margin-top: 1rem; }
+        .btn:hover { background-color: #0369a1; }
+        
+        /* Whitepaper Document Styling */
+        .whitepaper-content { background: #0f172a; padding: 1.5rem; border-radius: 8px; border: 1px solid #334155; max-height: 500px; overflow-y: auto; font-size: 0.95rem; color: #cbd5e1; }
+        .whitepaper-content h3 { color: #38bdf8; margin-top: 1.2rem; margin-bottom: 0.4rem; font-size: 1.1rem; }
+        .whitepaper-content h3:first-child { margin-top: 0; }
+        .whitepaper-content p { margin-bottom: 0.8rem; }
+        .whitepaper-content ul { margin-left: 1.5rem; margin-bottom: 0.8rem; }
+
+        footer { text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem; border-top: 1px solid #334155; }
+        .social-links a { color: #38bdf8; margin: 0 10px; text-decoration: none; }
+        .social-links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tether USD (USDT)</h1>
+        <p class="subtitle">Official TRC20 Utility Token on TRON Network</p>
+    </header>
+
+    <div class="container">
+        <!-- Token Information Card -->
+        <div class="card">
+            <h2>Token Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span>Network</span>
+                    <strong>TRON Mainnet</strong>
+                </div>
+                <div class="info-item">
+                    <span>Standard</span>
+                    <strong>TRC20</strong>
+                </div>
+                <div class="info-item">
+                    <span>Token Symbol</span>
+                    <strong>USDT</strong>
+                </div>
+                <div class="info-item">
+                    <span>Decimals</span>
+                    <strong>6</strong>
+                </div>
+                <div class="info-item">
+                    <span>Total Supply</span>
+                    <strong>10,000,000,000</strong>
+                </div>
+                <div class="info-item" style="grid-column: span 2;">
+                    <span>Contract Address</span>
+                    <strong>TQS34dDVoraAoFErmLC5KX8vgZF7AYaG83</strong>
+                </div>
+            </div>
+            <a href="https://tronscan.org/#/contract/TQS34dDVoraAoFErmLC5KX8vgZF7AYaG83" target="_blank" class="btn">View on TronScan</a>
+        </div>
+
+        <!-- Integrated Whitepaper Section -->
+        <div class="card">
+            <h2>Project Whitepaper</h2>
+            <div class="whitepaper-content">
+                <h3>1. Introduction</h3>
+                <p>Tether USD (USDT) on the TRON network is an optimized utility token designed to provide seamless digital asset transfers, fast transaction settlements, and enhanced liquidity support within the decentralized finance (DeFi) ecosystem. Built using the standard TRC20 protocol, the token guarantees high performance and minimal transaction fees native to the TRON blockchain.</p>
+
+                <h3>2. Core Features & Specifications</h3>
+                <ul>
+                    <li><strong>Token Name:</strong> Tether USD</li>
+                    <li><strong>Symbol:</strong> USDT</li>
+                    <li><strong>Protocol:</strong> TRC20 (TRON Network)</li>
+                    <li><strong>Decimals:</strong> 6</li>
+                    <li><strong>Total Supply:</strong> 10,000,000,000 (10 Billion Tokens)</li>
+                    <li><strong>Contract Address:</strong> TQS34dDVoraAoFErmLC5KX8vgZF7AYaG83</li>
+                </ul>
+
+                <h3>3. Smart Contract Architecture & Security</h3>
+                <p>The smart contract is developed using Solidity (^0.8.20) with optimized compilation parameters (200 optimizer runs). It incorporates standard, secure mapping structures for balances and allowances, ensuring full compliance with ERC/TRC20 token behaviors (transfer, approve, and transferFrom).</p>
+                <p>The source code has been successfully compiled, deployed, and publicly verified on TronScan, ensuring 100% transparency and auditability for all community members, holders, and tracking aggregators.</p>
+
+                <h3>4. Utility & Ecosystem Integration</h3>
+                <p>The USDT TRC20 token is engineered to serve multiple use cases:</p>
+                <ul>
+                    <li>Decentralized liquidity pools and automated market making (AMM) integration.</li>
+                    <li>Fast, low-cost peer-to-peer digital value transfers.</li>
+                    <li>Internal ecosystem settlement and utility mechanisms.</li>
+                </ul>
+
+                <h3>5. Transparency & Verification</h3>
+                <p>Public verification details and real-time transaction tracking can be accessed directly through the official TRON blockchain explorer via the button above.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank">Telegram</a> | 
+            <a href="#" target="_blank">Twitter / X</a> | 
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+        <p style="margin-top: 1rem;">&copy; 2026 Tether USD TRC20. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
